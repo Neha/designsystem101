@@ -29,7 +29,7 @@ guide is for everything I learned and I will be learning while working on DS.
   - UX writer(s)
   - Tester(s)
 - Pre Design System guide
-  - Designer Guide
+    - Designer Guide
     - Design audit
     - Design Tokens
     - Styleguide
@@ -71,10 +71,10 @@ guide is for everything I learned and I will be learning while working on DS.
 - What is successful DS - KPI (Key performance Indicators - survey - speed, quality, ease of contributions and completness)
 
 
-## What is Design System
+## What is Design System?
 A single source of the truth for the designers, developers, and the products.
 
-## Why Design System
+## Why Design System?
 We talk about the smart work and consistency.Developers, Designers, even the product owner are doing same thing again and again.
 DS helps in saving time, bring consistency in the products. Develoeprs and the product owners can focus on the more innovative work 
 by adapating the D. DS helps in building the prototype the product.
@@ -82,25 +82,25 @@ by adapating the D. DS helps in building the prototype the product.
 ## How to start?
 Do not start with the code. I repeat do not.
 
-- Audit and review the current projects
+1. Audit and review the current projects
 Understad the current products. Review the product designs understand the UI , UX and patterns.
 
-- Survey
+2. Do the Survey
 Do survey about what current DS they are using? What are deciding factors to pick a DS etc.
 
-- Scope
+3. Define the Scope
 Create the scope of the DS. You don't need to everything. It is fine if in starting you have only 10 components or just style guide but it is not fine if no one is using them. Would it be responsive or not? No one is going to ask you about accessibility but you need to do it.
 
-- Tech stack
+4. Pick your Tech stack
 What technology you are going to pick? If there are decision makers then your job is easy otherwise you have to spend time to make the rest of the products understand why X and not Y.
 
 ## Pre Design System
-Do the audit of the products from the POV of UX and UI. Understand the browsers, OS, Breakpoints etc.
-Pull out the patterns
-Pull out the components
-Understand the Typescale, Spacing, Colors, Micro-interaction(s), 
-Understand the data-handling and consuming
-Understand the performance metric (if any)
+- Do the audit of the products from the POV of UX and UI. Understand the browsers, OS, Breakpoints etc.
+- Pull out the patterns
+- Pull out the components
+- Understand the Typescale, Spacing, Colors, Micro-interaction(s), 
+- Understand the data-handling and consuming
+- Understand the performance metric (if any)
 
 ## Collabration
 - Product Audit
@@ -170,22 +170,31 @@ Reusability is very important not just for the users but for the developers too.
 Whenever you are developing anything keep thinking how it can be reuse not just by user but by developer too.
 
 ### Architecture
-PS: We used SCSS because we were scaling our DS in Angular and React. Hence instead of CSS-in-JS this is more easy way.
+The architecure of your DS will depende upon the tech-stack you have picked.One needs to get
+into the depth of the tech-stack he/she has picked to design a good archietecture. The building blocks
+of the DS is styling, Utilities, and components. Make sure that you are thinking about scaling and reusability around these
+when you are desiging your DS.
 
-Vanilla
-React
-Angular
+One can pick SCSS solution over CSS-in-JS if one wants to reuse the styling as lib.
+
+- Vanilla
+- React
+- Angular
+- Vue
 
 ### CI/CD
-Diagram
+[Diagram]
 
 ### Consumable Lib
+[Diagram]
 
 ### Backward compatibility
+[Content]
 
 ### Test cases
 For smaller component you might feel that there is no need of test-cases
 but as you move ahead it is important to take TDD.
+[Content]
 
 ### CSS Guide
 - BEM

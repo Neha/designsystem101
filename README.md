@@ -1,12 +1,11 @@
 # Design System 101
 Are you planning to develop a Design System or just curious to know what Design System is? 
-If yes, then here is the detailed guide for you. No matter who you are - a designer, developer, 
-product owner, UX Writer, tester etc. this guide do have something for everyone.
+If yes, then here is a detail guide for you. No matter who you are - a designer, developer, 
+product owner, UX Writer, tester etc. this guide have something for everyone.
 
 # Why this guide?
 From last few Months I am working on Design System at my workplace. There were challenges and lot of learnings too. 
-I was sharing my experience on social media about DS as a result many people showed their interest in DS. This
-guide is for everything I learned and I will be learning while working on DS.
+I was sharing my experience on social media about it.Many people showed their interest in it. Hence, I have documented my learnings on the Design System.
 
 ## Key Terms:
 - Presentational and Functional Components
@@ -20,81 +19,65 @@ guide is for everything I learned and I will be learning while working on DS.
 ## Agenda
 - What is Design System?
 - Why you need a Design System?
-- Use the already available or create your own?
+- Why to/not to use available Design System?
 - How to Start?
-- Scope of the Design System.
-- Roles in Design System
+- How to define the scope of the Design System.
+- Roles in Design System:
   - Designer(s)
   - Developer(s)
   - UX writer(s)
   - Tester(s)
 - Pre Design System guide
     - Designer Guide
-    - Design audit
-    - Design Tokens
-    - Styleguide
-    - Flexibility vs consistency
-    - Design Kits
-    - Color palatte
-    - Micro-interaction(s)
-    - Design language and tone
+       
   - Developer Guide
-   - Reusability
-   - Consistency
-   - Scalability - SCSS, Methods, Kits, styleguide, React, namespacing
-   - Archiecture
-   - Tech Stack
-   - Delivery the DS
-   - Documentation
-   - Examples
+  
 - Post Design system
-   - Releases
-   - Maintaince, CR
-   - Awarness and Advocacy
-   - Community Building
-   - Collabration
-   - Mesaurement of the DS
+     - Releases
+     - Maintaince, CR
+     - Awarness and Advocacy
+     - Community Building
+     - Collabration
+     - Mesaurement of the DS
+     - Lifecycle of Design system
+     - Advocacy
+     - Organize the team to scaleability
+     - Internal community
+     - What is successful DS - KPI (Key performance Indicators - survey - speed, quality, ease of contributions and completness)
+     
+     
 
 - Learnings
 - Do's and Don'ts
 - Portal - All details...one stop solution of all the infromation, Think it as a portal for every new designers, product manager, Developer as the black book to learn about the company and guidelines. 
-
-### EXTRA
-- Lifecycle of Design system
-- Security
-- Multi Tech Stack + DS
-- Scope of the Design System
-- Advocacy
-- Design tokens
-- Organize the team to scaleability
-- Internal community
-- What is successful DS - KPI (Key performance Indicators - survey - speed, quality, ease of contributions and completness)
 
 
 ## What is Design System?
 A single source of the truth for the designers, developers, and the products.
 
 ## Why Design System?
-We talk about the smart work and consistency.Developers, Designers, even the product owner are doing same thing again and again.
-DS helps in saving time, bring consistency in the products. Develoeprs and the product owners can focus on the more innovative work 
-by adapating the D. DS helps in building the prototype the product.
+We talk about the smart work and consistency.Developers, Designers, even the product owner are doing same thing again and again.DS helps in saving time, bring consistency in the products. Develoeprs and the product owners can focus on the more innovative work by adapating the D. DS helps in building the prototype the product.
 
 ## How to start?
-Do not start with the code. I repeat do not.
+The first and formost thing of developing Design System is - "Do not start with the code".
+Below are the the starting points:
 
-1. Audit and review the current projects
+__1. Audit__
 Understad the current products. Review the product designs understand the UI , UX and patterns.
 
-2. Do the Survey
+__2. Survey__
 Do survey about what current DS they are using? What are deciding factors to pick a DS etc.
 
-3. Define the Scope
+__3. Scope__
 Create the scope of the DS. You don't need to everything. It is fine if in starting you have only 10 components or just style guide but it is not fine if no one is using them. Would it be responsive or not? No one is going to ask you about accessibility but you need to do it.
 
-4. Pick your Tech stack
+__4. Tech stack__
 What technology you are going to pick? If there are decision makers then your job is easy otherwise you have to spend time to make the rest of the products understand why X and not Y.
 
-## Pre Design System
+__5. Tools__
+*TBD*
+
+__6. Designers__
 - Do the audit of the products from the POV of UX and UI. Understand the browsers, OS, Breakpoints etc.
 - Pull out the patterns
 - Pull out the components
@@ -102,7 +85,7 @@ What technology you are going to pick? If there are decision makers then your jo
 - Understand the data-handling and consuming
 - Understand the performance metric (if any)
 
-## Collabration
+__6. Collabration__
 - Product Audit
 - Design tokens
 - Namespacing
@@ -113,7 +96,7 @@ What technology you are going to pick? If there are decision makers then your jo
 - Documentation
 
 
-## Designer Guide
+# Designer Guide
 - Colors
 - Sizes (types)
 - typescale
@@ -126,8 +109,17 @@ What technology you are going to pick? If there are decision makers then your jo
 - Design Kit for scalability
 - UX guides (Dos and Donts such as - when to use what? Accordion vs tabs, Color contast, tags vs chips)
 
+ - Design audit
+        - Design Tokens
+        - Styleguide
+        - Flexibility vs consistency
+        - Design Kits
+        - Color palatte
+        - Micro-interaction(s)
+        - Design language and tone
 
-## Developer Guide
+
+# Developer Guide
 - Tech stack
 - NPM or Yarn or CDN
 - Responsive
@@ -148,6 +140,19 @@ What technology you are going to pick? If there are decision makers then your jo
 - Maintaiance
 - modules
 - Quality
+
+
+   - Reusability
+     - Consistency
+     - Scalability - SCSS, Methods, Kits, styleguide, React, namespacing
+     - Archiecture
+     - Tech Stack
+     - Delivery the DS
+     - Documentation
+     - Examples
+     - Design tokens
+     - Multi Tech Stack + DS
+     - Security
 
 ### Tech Stack
 Pick the tech stack by research
@@ -275,7 +280,7 @@ The few decision making points are:
 - Components within components
 - Modules - SCSS 
 
-## Documentation
+# Documentation
 No matter how good your design system is but if you don't have good documentation no one is going to use it.
 As well as bad documentation will also lead to lot of issues in the Github full of queries. Hence, documentation is important.
 
@@ -283,13 +288,13 @@ Documentation is collabration work of UX Designers, UI developers, and UX writer
 
 Create a template of documentation and share with the team to fill it - Images, examples, DoS and Donts, description of component, how to use, methods, props guide.
 
-## Patterns or Examples
+# Patterns or Examples
 Build the ready to use patterns from your design system. It will help you to understand the gaps, fix the gaps and understand how easy is DS to use. As well as, these will interest lot of products who want to save the time.
 
 No one is going to come and ask for 'I am looking for checkbox or button' but there is higher chance of developers coming and asking about I am looking 'Filter-able Data grid with pagination'.
 
 
-## Post Design System
+# Post Design System
 - Release plans
 - Defect log
 - New Feature Request
@@ -298,7 +303,7 @@ No one is going to come and ask for 'I am looking for checkbox or button' but th
 - Community Building
 
 
-## Learnings
+# Learnings
 - Migration is tough
 - Every product is a case study
 - You need to taste your own medicine
@@ -312,7 +317,7 @@ No one is going to come and ask for 'I am looking for checkbox or button' but th
 
 
 
-## Dos and Dont's
+# Dos and Dont's
 - Start from small
 - Thinking about reusability
 - Always consider the flexbity
@@ -324,7 +329,7 @@ No one is going to come and ask for 'I am looking for checkbox or button' but th
 - Props valdiations
 - Close vs open components
 
-## Where to Host?
+# Where to Host?
 You can pick either github or a dedicated website. It is always good to provide the website, the reason is non-tech people such as 
 designers, UX writer, product owners can easily go and check the informationa and if you have clients then for them too. 
 

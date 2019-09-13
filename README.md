@@ -9,11 +9,11 @@ I was sharing my experience on social media about it.Many people showed their in
 
 ## Key Terms:
 - Presentational and Functional Components
-- Open and close components
+- Open and close components or Flexible or non-flexible components
 - Namespacing - CSS and React
-- Performance Metric
-- Your DS's terminology 
-- Your DS's rules
+- Performance Metrics
+- Your DS's terminology guide
+- Your DS's rules and scopes
 - 360 degree consistancy (from style to documentation)
 
 ## Agenda
@@ -22,16 +22,8 @@ I was sharing my experience on social media about it.Many people showed their in
 - Why to/not to use available Design System?
 - How to Start?
 - How to define the scope of the Design System.
-- Roles in Design System:
-  - Designer(s)
-  - Developer(s)
-  - UX writer(s)
-  - Tester(s)
-- Pre Design System guide
-    - Designer Guide
-       
-  - Developer Guide
-  
+- KRA's of UX,UI,BA,UX Writer,QA in Design System.
+- Pre Design System guide for the team
 - Post Design system
      - Releases
      - Maintaince, CR
@@ -44,9 +36,6 @@ I was sharing my experience on social media about it.Many people showed their in
      - Organize the team to scaleability
      - Internal community
      - What is successful DS - KPI (Key performance Indicators - survey - speed, quality, ease of contributions and completness)
-     
-     
-
 - Learnings
 - Do's and Don'ts
 - Portal - All details...one stop solution of all the infromation, Think it as a portal for every new designers, product manager, Developer as the black book to learn about the company and guidelines. 
@@ -56,11 +45,16 @@ I was sharing my experience on social media about it.Many people showed their in
 A single source of the truth for the designers, developers, and the products.
 
 ## Why Design System?
-We talk about the smart work and consistency.Developers, Designers, even the product owner are doing same thing again and again.DS helps in saving time, bring consistency in the products. Develoeprs and the product owners can focus on the more innovative work by adapating the D. DS helps in building the prototype the product.
+To bring the :
+- consistency
+- eliminate reduantant tasks
+- brand
+- guidelines
 
 ## How to start?
-The first and formost thing of developing Design System is - "Do not start with the code".
-Below are the the starting points:
+"Do not start with the code." Most important task is to understand clearly about the requirements, scope, of the design system. The BA, product manager should give the all requirement of the design system. Such as: what all components are required, what is the scope of those components etc.
+
+or they can do the following:
 
 __1. Audit__
 Understad the current products. Review the product designs understand the UI , UX and patterns.
@@ -142,7 +136,7 @@ __6. Collabration__
 - Quality
 
 
-   - Reusability
+- Reusability
      - Consistency
      - Scalability - SCSS, Methods, Kits, styleguide, React, namespacing
      - Archiecture
@@ -154,25 +148,37 @@ __6. Collabration__
      - Multi Tech Stack + DS
      - Security
 
+
+### Component's Requirement and list
+Provide the list of the component which are production ready, work-in-progress, and under discussion.
+
 ### Tech Stack
-Pick the tech stack by research
+It would be very tempting for the developers to pick the tech stack as per their skills convience but when you are developing design system you are building for the consumers to use them in their project. Hence, it is important to use the tech stack which is widely used not just in the world but in your organiztion too. The survey to get the requirements should have the field which tech is the product currently is on and are they planning to migrate to anyother tech if yes then name please.
 
-### Quality
-Prettier, CSSLint, JSLint, Format. Make them part of the CI/CD.
-Make them the part of the Github Readme
+The few decision making points are:
 
-### Responsive
-Scope of responsive. If not responsive then how we are going to pass the message?
+- Team skills
+- Migration
+- Learning curve
+- Browser and OS support
+- Open issues
+- few more...
 
-### Accessibility
-No matter anyone asked or not make the accessibility the part of your development
 
-### List of the components
-Make the list of the components
+- Vanilla
+- Reactjs
+- Angular
+- Vuejs
+- Web components
+- Stencils
 
-### Reusability
-Reusability is very important not just for the users but for the developers too.
-Whenever you are developing anything keep thinking how it can be reuse not just by user but by developer too.
+- Folder archietcture
+- Build process
+- Playground
+- Documentation
+- Themes
+- Patterns
+- Examples
 
 ### Architecture
 The architecure of your DS will depende upon the tech-stack you have picked.One needs to get
@@ -187,6 +193,30 @@ One can pick SCSS solution over CSS-in-JS if one wants to reuse the styling as l
 - Angular
 - Vue
 
+
+
+### Responsive
+Always have the Mobile first approach. To support the responsive behaviour you should define the scope of it. You need to close:
+
+1) Breakpoints and Devices
+2) Font behaviour
+3) Micro-interactions's behaviour
+
+You can define these breakpoints:
+
+
+### Accessibility
+It doesn't matter accessibility is in the requirement or not. As developer you should support the accessibility. Every component should be accessible. The important thing here is to define the scope of the Accessibility and cleary mention in the documentation:
+
+1) Keyboard support
+2) Text-to-speech
+3) Color contrast
+
+### Reusability
+Reusability is very important not just for the users but for the developers too.
+Whenever you are developing anything keep thinking how it can be reuse not just by user but by developer too.
+
+
 ### CI/CD
 [Diagram]
 
@@ -200,6 +230,8 @@ One can pick SCSS solution over CSS-in-JS if one wants to reuse the styling as l
 For smaller component you might feel that there is no need of test-cases
 but as you move ahead it is important to take TDD.
 [Content]
+
+# Guides
 
 ### CSS Guide
 - BEM
@@ -239,33 +271,7 @@ but as you move ahead it is important to take TDD.
 - Playground
 - Why smallest component also
 
-### Tech Stack
-As a developer you need to decide the tech stack of the DS. It is not simple to pick any famous tech. You need to understand your company' product, market demand and few more.
 
-The few decision making points are:
-
-- Team skills
-- Migration
-- Learning curve
-- Browser and OS support
-- Open issues
-- few more...
-
-
-- Vanilla
-- Reactjs
-- Angular
-- Vuejs
-- Web components
-- Stencils
-
-- Folder archietcture
-- Build process
-- Playground
-- Documentation
-- Themes
-- Patterns
-- Examples
 
 ## Reuseability
 - Styling
@@ -279,6 +285,11 @@ The few decision making points are:
 - Decide between flexibility vs consistency
 - Components within components
 - Modules - SCSS 
+
+# Quality
+It is very important to maintain the quality of the code. When you have many developers working on one project it is good idea to enforce the code guidelines by using Prettier, CSSLint, JSLint, Formatting. These should be the part of the developers' IDE and to the readme of your design system. (This will gain the confidence of the consumer of DS)
+
+TIP: Make these rules as the part of your build pipeline too.
 
 # Documentation
 No matter how good your design system is but if you don't have good documentation no one is going to use it.

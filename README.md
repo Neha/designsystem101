@@ -19,42 +19,35 @@ I was sharing my experience on social media about it.Many people showed their in
 ## Agenda
 - What is Design System?
 - Why you need a Design System?
-- Why to/not to use available Design System?
+- Why to and not to use available Design System?
 - How to Start?
 - How to define the scope of the Design System.
-- KRA's of UX,UI,BA,UX Writer,QA in Design System.
+- Role of team members in Design System.
 - Pre Design System guide for the team
 - Post Design system
-     - Releases
-     - Maintaince, CR
-     - Awarness and Advocacy
-     - Community Building
+     - Release plans
+     - Maintaince
+     - Evangelism (Community Building)
      - Collabration
-     - Mesaurement of the DS
+     - Metrics of the DS - use, etc.
      - Lifecycle of Design system
-     - Advocacy
-     - Organize the team to scaleability
-     - Internal community
+     - Team plan for the scalability
      - What is successful DS - KPI (Key performance Indicators - survey - speed, quality, ease of contributions and completness)
 - Learnings
 - Do's and Don'ts
-- Portal - All details...one stop solution of all the infromation, Think it as a portal for every new designers, product manager, Developer as the black book to learn about the company and guidelines. 
-
+- Portal and playground
 
 ## What is Design System?
 A single source of the truth for the designers, developers, and the products.
 
 ## Why Design System?
 To bring the :
-- consistency
-- eliminate reduantant tasks
-- brand
-- guidelines
+- Consistency
+- Eliminate reduantant tasks
+- Enforce brand, UI, and UX guidelines
 
 ## How to start?
-"Do not start with the code." Most important task is to understand clearly about the requirements, scope, of the design system. The BA, product manager should give the all requirement of the design system. Such as: what all components are required, what is the scope of those components etc.
-
-or they can do the following:
+"Do not start with the code." Most important task is to understand clearly about the requirements, scope, of the design system. The BA, product manager should give the all requirement of the design system. 
 
 __1. Audit__
 Understad the current products. Review the product designs understand the UI , UX and patterns.
@@ -134,8 +127,6 @@ __6. Collabration__
 - Maintaiance
 - modules
 - Quality
-
-
 - Reusability
      - Consistency
      - Scalability - SCSS, Methods, Kits, styleguide, React, namespacing

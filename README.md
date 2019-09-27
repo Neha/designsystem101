@@ -40,50 +40,56 @@ I was sharing my experience on social media about it.Many people showed their in
 ## What is Design System?
 A single source of the truth for the designers, developers, and the products.
 
-## Why Design System?
-To bring the :
-- Consistency
-- Eliminate reduantant tasks
-- Enforce brand, UI, and UX guidelines
+## Why you need a Design System?
+Design system is not a new thing. These are here from decadeds. Thanks to our very complex UI and UX as well as rapidly changing technology. Companies are moving towards the Design System to also make sure that :
+
+1) Brand guidelines of the organization is followed by every product and project of the organization.
+2) Code Guidelines of the organization should be followed by every product and project within the organization.
+3) Designers and engineers can focus on more important and creative work rahter than just doing same task again.
+4) Remove the redundant tasks.
 
 ## How to start?
-"Do not start with the code." Most important task is to understand clearly about the requirements, scope, of the design system. The BA, product manager should give the all requirement of the design system. 
+This is the most important question for everyone who is new to design system. If you will Google Design System guide - the result you will get is what design system is, what it has etc. but no one explain - "How to start a design system" from a UX, UI, product Lead , or tester presepctive.Here is the process which I have followed and you can follow too:
+
+For Developers: "Do not start with the code."
+For Designers: "Do not start with the design."
+
+Most important task is to understand clearly about the scope of the design system, problems you are trying to solve by Design System, requirements of the organiztion. But how to start to do this?
 
 __1. Audit__
-Understad the current products. Review the product designs understand the UI , UX and patterns.
+If you are not sure of the product or design decisions then the first step should be to meet the products and project teams.
+Have a look at the existing proxuct's UX, UI, tech-stack, pain areas etc. Make notes from every product and try to look for common components, patterns, colors etc.
 
 __2. Survey__
-Do survey about what current DS they are using? What are deciding factors to pick a DS etc.
+If meeting the team is not possible , then do the internal survey. Ask about the what kind of design system they would like to use? What makes them to use a design system? etc.
 
-__3. Scope__
-Create the scope of the DS. You don't need to everything. It is fine if in starting you have only 10 components or just style guide but it is not fine if no one is using them. Would it be responsive or not? No one is going to ask you about accessibility but you need to do it.
+These 2 steps going to help you to understand about your organization's current product/projects current situation on the UX, UI, Design system etc. Most importantly to make them aware of design system and why it is important.
 
-__4. Tech stack__
-What technology you are going to pick? If there are decision makers then your job is easy otherwise you have to spend time to make the rest of the products understand why X and not Y.
+**NEXT STEP**
+Once you have the list of the common components, patterns, etc. Now, is the time to UX team to look into the defining the scope. Remember one cannot have every component in the Design system. Why? because reason of design system to have 'reusable' components. The reusable components should be used by more than atleast 2 products. Otherwise every product/project will keep pushing their work on design system team as well as extra components will make the design system heavier.
 
-__5. Tools__
-*TBD*
+__1. Scope__
+Defining the scope of the DS is very important from the UX and UI. You should decide what all your DS should have from UX - styleguide, color palattes, design files, design specs, responsive, breakpoints , Dos and Don'ts, which all components etc. From UI, think about the tech stack, repos, architecture etc.
 
-__6. Designers__
-- Do the audit of the products from the POV of UX and UI. Understand the browsers, OS, Breakpoints etc.
-- Pull out the patterns
-- Pull out the components
-- Understand the Typescale, Spacing, Colors, Micro-interaction(s), 
-- Understand the data-handling and consuming
-- Understand the performance metric (if any)
+__2. Tech stack__
+For developers this is the most important decision to make. If your company is using only 1 lib/framework then there is no decision to make. Otherwise do a good research of the industry and make list of the available options and their pros and cons. 
+Few things which will help in making decisoions are:
 
-__6. Collabration__
-- Product Audit
-- Design tokens
-- Namespacing
-- progressive Enhancement
-- Browsers + OS
-- Patterns
-- Dos and Donts
-- Documentation
+- Community support
+- Learning curve
+- Stable version
+- Team skills
 
+So far you have done this:
 
-# Designer Guide
+1) Met your product/project teams and got the insight of the UX, UI etc.
+2) Have the scope of the DS : what all we are going to have from UX and UI.
+3) List of all components to be in the DS
+4) Tech Stack for the development
+
+**Milestone 2**
+
+__1. Designers__
 - Colors
 - Sizes (types)
 - typescale
@@ -96,6 +102,7 @@ __6. Collabration__
 - Design Kit for scalability
 - UX guides (Dos and Donts such as - when to use what? Accordion vs tabs, Color contast, tags vs chips)
 
+
  - Design audit
         - Design Tokens
         - Styleguide
@@ -106,7 +113,7 @@ __6. Collabration__
         - Design language and tone
 
 
-# Developer Guide
+__2. Developers
 - Tech stack
 - NPM or Yarn or CDN
 - Responsive
@@ -138,6 +145,21 @@ __6. Collabration__
      - Design tokens
      - Multi Tech Stack + DS
      - Security
+
+
+__3. Collabration__
+- Product Audit
+- Design tokens
+- Namespacing
+- progressive Enhancement
+- Browsers + OS
+- Patterns
+- Dos and Donts
+- Documentation
+
+
+
+
 
 
 ### Component's Requirement and list

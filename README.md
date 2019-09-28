@@ -57,21 +57,26 @@ For Designers: "Do not start with the design."
 Most important task is to understand clearly about the scope of the design system, problems you are trying to solve by Design System, requirements of the organiztion. But how to start to do this?
 
 __1. Audit__
+
 If you are not sure of the product or design decisions then the first step should be to meet the products and project teams.
 Have a look at the existing proxuct's UX, UI, tech-stack, pain areas etc. Make notes from every product and try to look for common components, patterns, colors etc.
 
 __2. Survey__
+
 If meeting the team is not possible , then do the internal survey. Ask about the what kind of design system they would like to use? What makes them to use a design system? etc.
 
 These 2 steps going to help you to understand about your organization's current product/projects current situation on the UX, UI, Design system etc. Most importantly to make them aware of design system and why it is important.
 
 **NEXT STEP**
+
 Once you have the list of the common components, patterns, etc. Now, is the time to UX team to look into the defining the scope. Remember one cannot have every component in the Design system. Why? because reason of design system to have 'reusable' components. The reusable components should be used by more than atleast 2 products. Otherwise every product/project will keep pushing their work on design system team as well as extra components will make the design system heavier.
 
 __1. Scope__
+
 Defining the scope of the DS is very important from the UX and UI. You should decide what all your DS should have from UX - styleguide, color palattes, design files, design specs, responsive, breakpoints , Dos and Don'ts, which all components etc. From UI, think about the tech stack, repos, architecture etc.
 
 __2. Tech stack__
+
 For developers this is the most important decision to make. If your company is using only 1 lib/framework then there is no decision to make. Otherwise do a good research of the industry and make list of the available options and their pros and cons. 
 Few things which will help in making decisoions are:
 
@@ -90,10 +95,12 @@ So far you have done this:
 **Milestone 2**
 
 __1. Designers__
-- Colors
-- Sizes (types)
-- typescale
-- Spacing
+As a desginers of Design system you should have the list of the following:
+- Colors - which all colors your design system will have? Primary colors, Alert colors, secondary color etc. Make sure that these colors are passing the contrast ratio.
+
+- Typescale - What would be the typescale of the typography of your design system? There should be minimum font-size your design system should have. Decide on the Typescale - will there be fixed type sizes or user can have any.
+
+- Spacing - 
 - Responsive
 - progressive enhancement
 - Styleguide

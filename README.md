@@ -56,47 +56,47 @@ For Designers: "Do not start with the design."
 
 Most important task is to understand clearly about the scope of the design system, problems you are trying to solve by Design System, requirements of the organiztion. But how to start to do this?
 
-__1. Audit__
+**1. Audit**
 
 If you are not sure of the product or design decisions then the first step should be to meet the products and project teams.
 Have a look at the existing proxuct's UX, UI, tech-stack, pain areas etc. Make notes from every product and try to look for common components, patterns, colors etc.
 
-__2. Survey__
+**2. Survey**
 
 If meeting the team is not possible , then do the internal survey. Ask about the what kind of design system they would like to use? What makes them to use a design system? etc.
 
 These 2 steps going to help you to understand about your organization's current product/projects current situation on the UX, UI, Design system etc. Most importantly to make them aware of design system and why it is important.
 
-**NEXT STEP**
 
-Once you have the list of the common components, patterns, etc. Now, is the time to UX team to look into the defining the scope. Remember one cannot have every component in the Design system. Why? because reason of design system to have 'reusable' components. The reusable components should be used by more than atleast 2 products. Otherwise every product/project will keep pushing their work on design system team as well as extra components will make the design system heavier.
+_Once you have the list of the common components, patterns, etc. Now, is the time to UX team to look into the defining the   scope. Remember you cannot have every component in the Design system. Why? because reason of design system to have  'reusable' components. The reusable components should be used by more than atleast 2 products. Otherwise every product/project will keep pushing their work on design system team as well as extra components will make the design system heavier._
 
-__1. Scope__
+**3. Scope**
 
 Defining the scope of the DS is very important from the UX and UI. You should decide what all your DS should have from UX - styleguide, color palattes, design files, design specs, responsive, breakpoints , Dos and Don'ts, which all components etc. From UI, think about the tech stack, repos, architecture etc.
 
-__2. Tech stack__
+**4. Tech stack**
 
 For developers this is the most important decision to make. If your company is using only 1 lib/framework then there is no decision to make. Otherwise do a good research of the industry and make list of the available options and their pros and cons. 
 Few things which will help in making decisoions are:
 
-- Community support
-- Learning curve
-- Stable version
-- Team skills
+-  Community support
+-  Learning curve
+-  Stable version
+-  Team skills
 
-So far you have done this:
+> Summary:
 
-1) Met your product/project teams and got the insight of the UX, UI etc.
-2) Have the scope of the DS : what all we are going to have from UX and UI.
-3) List of all components to be in the DS
-4) Tech Stack for the development
+> 1. Met your product/project teams and got the insight of the UX, UI etc.
+> 2. Have the scope of the DS : what all we are going to have from UX and UI.
+> 3. List of all components to be in the DS
+> 4. Tech Stack for the development
 
-**Milestone 2**
+---
 
-__1. Designers__
+**Designers**
 As a desginers of Design system you should have the list of the following:
-- Colors - which all colors your design system will have? Primary colors, Alert colors, secondary color etc. Make sure that these colors are passing the contrast ratio.
+- Colors 
+Which all colors your design system will have? Primary colors, Alert colors, secondary color etc. Make sure that these colors are passing the contrast ratio.
 
 - Typescale
 What would be the typescale of the typography of your design system? There should be minimum font-size your design system should have. Decide on the Typescale - will there be fixed type sizes or user can have any.
@@ -107,40 +107,40 @@ what would be the spacing (padding and margin) guide your design system will hav
 - Responsive
 It is very important to have responsive design system. "Why?" I will ask - "Why not"?. This is mobile and tabs era. Every component in your design system should be responsive by default. As a designer decide the breakpoints your design system is going to support (your design audit will help you here). Once the breakpoints are decided. Start thinking about the behaviour of the components on the responsive state. Components behaviour can be handle component by component but few things you need to close intiatlly:
 
-1) Will the font-size will change in responsive?
-2) What will be the UX of the touch screen?
-3) How the active, focus etc state will be on the touch screen?
+1. Will the font-size will change in responsive?
+2. What will be the UX of the touch screen?
+3. How the active, focus etc state will be on the touch screen?
 
 
 - Progressive enhancement & Browsers
 This would be the collabration work of the UX, UI etc. To deciden the browsers and devices your design system is going to support.As a designer it is important for you to involve in this decision as devs will keep you updated the limitations of the browsers version.ex: a particular property will work on all browser or not? and as a designer you need to decide to keep such design or not. As well as, do we have prgressive enhancement or graceful degradation.
 
-- Styleguide
-Micro-interactions
+
+- Micro-interactions
 Micro-interactions are very important. This actually the part of the UX which engage the users. Sadly, this is the section which is also most ignorant too.Micro-interactions are basically the small animations, effects, UX very interaction of user with the component will have. As a designer Micro-interactions define the UX of interacting with any components. Such as on hover on a button what all property will change and how they will change, in design system on closing any open element - how it is going to close - with transition or fade etc.These micro-interactions should be global and consistent throught out your design system. Few interactions are:
-- hover
-- active
-- select
-- delete
-- open 
-- close
-- scroll
-- drag
-- drop
-- errors
-- notifications
+.hover
+.active
+.select
+.delete
+.open 
+.close
+.scroll
+.drag
+.drop
+.errors
+.notifications
 
 - UX Guide
-Lot of non-designer folks will be using your deisgn system and it is an opportunity for UX to advocate the non-ux folks about the UX guidelines. Give the UX guide with every component such as - 
-1) When to use this component?
-2) Where to use this component?
-3) What are the things needs to take care to have best UX for users.
+Lot of non-designer folks will be using your deisgn system and it is an opportunity for UX to advocate the non-ux folks about the UX guidelines. Give the UX guide with every component such as:
+
+1. When to use this component?
+2. Where to use this component?
+3. What are the things needs to take care to have best UX for users.
 
 Eg: When to use button and when to use anchor tag.
 
 - Error stages
 Sadly there is no component on error stage. hence as designer you need to make sure you will define the style of the error or notification states such as error, alert, success etc. Again these needs to be define global and should be consisitent too.
-
 
 - Design Kit for scalability
 To gain the trust of your users as well as to have the collabration. Open all your design kit for the users.
@@ -154,116 +154,139 @@ Styleguide is the summary of the Design system's UX decision. Always have a styl
 
 - Themes
 
+- Styleguide
 
-Once the UX team is doing there work. Developers should focus on the following:
 
-1) Tech stack
-This is the first step to decide on which teck stack you will be building your design system.There are many options available. As well as, 
-from the audit or meeting to the products/project teams you can get the idea which tech stack to follow. If you need to decide the
-tech stack for design system consider the following points:
-Team skills
+**Developers**
 
-Migration
-
-Learning curve
-
-Browser and OS support
-
-Open issues
+1. Tech stack
+This is the first step to decide on which teck stack you will be building your design system.There are many options available. As well as, from the audit or meeting to the products/project teams you can get the idea which tech stack to follow. If you need to decide the tech stack for design system consider the following points:
+. Team skills
+. Migration
+. Learning curve
+. Browser and OS support
+. Open issues
 
 few more...
 
-Vanilla
+. Vanilla
+. Reactjs
+. Angular
+. Vuejs
+. Web components
+. Stencils
 
-Reactjs
-
-Angular
-
-Vuejs
-
-Web components
-
-Stencils
-
-Build tools*
-2) Architecture
-Once the tech-stack is finalized, next step is to work on the archietcture of the deisgn system. This is important because before sharing
-with your rest of the development team and starting coding you have the base ready. While working on the archietcture you need to also
-consider scalability, where the styling would be, where the utlis will be, etc.
-
-**The architecure of your DS will depende upon the tech-stack you have picked.One needs to get into the depth of the tech-stack he/she has picked 
-to design a good archietecture. The building blocks of the DS is HTML(view), styling, Utilities, and components. Make sure that you are thinking about 
-scaling and reusability around these when you are desiging your DS.
+2. Architecture
+Once the tech-stack is finalized, next step is to work on the archietcture of the deisgn system. This is important because before sharing with your rest of the development team and starting coding you have the base ready. While working on the archietcture you need to also consider scalability, where the styling would be, where the utlis will be, etc.
+The architecure of your DS will depende upon the tech-stack you have picked.One needs to get into the depth of the tech-stack he/she has picked to design a good archietecture. The building blocks of the DS is HTML(view), styling, Utilities, and components. Make sure that you are thinking about scaling and reusability around these when you are desiging your DS.
 
 One can pick SCSS solution over CSS-in-JS if one wants to reuse the styling as lib.
 Please check here the things to consider for styling(1)
 Vanilla
 React
 Angular
-Vue**
+Vue
 
-3) CI/CD
+3. CI/CD
 Next thing is to look into the CI/CD process. Try to do automation of every task and especially of the builds. 
 You need to work on the pipelines and what all tasks will it do.
 
-4) Repos
+4. Repos
 Start creating the repos of your design system.
-- dev
-- QA 
-- staging 
-- prod
+. dev
+. QA 
+. staging 
+. prod
 
-
+---
 ** Milestone 3**
 Now, you will get the components design from the designer
-1) The look and feel is from css hence decide are you using some lib, css-in-js solution
+1. The look and feel is from css hence decide are you using some lib, css-in-js solution
+2. Design tokenn - create the design token files
+3. Create your first component
+4. Test pipelines and TDD 
+5. Tech documentation
+6. consumable build
+7. Release for QA - playground and repos
+8. Examples 
 
 
-2) Design tokens
-create the design token files
-
-3) Create your first component
-
-4) Test pipelines and TDD 
-
-5) Tech documentation
-
-6) consumable build
-
-7) Release for QA - playground and repos
-
-8) Examples 
-
-
-CODE:
+**CODE:**
 - sample components template
 - Guidelines
 - Namespacing
 - Unit testing
+- Reusability
+- PR guidelines
 - Accessibility
+- type checking
 It doesn't matter accessibility is in the requirement or not. As developer you should support the accessibility. Every component should be accessible. The important thing here is to define the scope of the Accessibility and cleary mention in the documentation:
 
 Keyboard support
 Text-to-speech
 Color contrast
-- Reusability
-- type checking
-- PR guidelines
 
-components:
+# Guides
+### CSS Guide
+(1) CSS Guide
+BEM
+Functional CSS
+Name space
+Naming convention
+Breakpoints
+Colors
+Font-family
+Typescale
+Modules - SCSS
 
+### Markup
+- Semantic
+- Avoid lot of code
+- Markup with classname should not be tighltly coupled
+- Close vs open Markup
+- Data-attributes
+
+### Javascript
+- How to initalize
+- Repaint vs reflow
+- Memory leaks
+- Data-attributes vs classname/ID
+- Dynamic Binding
+- Event delegation + binding
+
+### React
+- Sepration simple to complex
+- props required, default
+- props validation
+- Flexibility vs conisitency
+- JS or React State?
+- children, HOC, etc
+- Playground
+- Why smallest component also
+
+## Reuseability
+- Styling
+- Markup
+- Methods and props names
+- Documenation template
+- Global Methods
+- CSS Styling
+- Design Kit
+- Styleguide
+- Decide between flexibility vs consistency
+- Components within components
+- Modules - SCSS 
+---
 
 Consumable Lib
 Test cases
 List of the components
 Scope of components
+type checking
 
 
 
-
-
-
-__3. Collabration__
+**3. Collabratio**
 - Product Audit
 - Design tokens
 - Namespacing
@@ -272,10 +295,6 @@ __3. Collabration__
 - Patterns
 - Dos and Donts
 - Documentation
-
-
-
-
 
 
 ### Component's Requirement and list
@@ -293,62 +312,7 @@ For smaller component you might feel that there is no need of test-cases
 but as you move ahead it is important to take TDD.
 [Content]
 
-# Guides
 
-### CSS Guide
-(1) CSS Guide
-BEM
-Functional CSS
-Name space
-Naming convention
-Breakpoints
-Colors
-Font-family
-Typescale
-Modules - SCSS
-
-
-### Markup
-- Semantic
-- Avoid lot of code
-- Markup with classname should not be tighltly coupled
-- Close vs open Markup
-- Data-attributes
-
-
-### Javascript
-- How to initalize
-- Repaint vs reflow
-- Memory leaks
-- Data-attributes vs classname/ID
-- Dynamic Binding
-- Event delegation + binding
-
-
-### React
-- Sepration simple to complex
-- props required, default
-- props validation
-- Flexibility vs conisitency
-- JS or React State?
-- children, HOC, etc
-- Playground
-- Why smallest component also
-
-
-
-## Reuseability
-- Styling
-- Markup
-- Methods and props names
-- Documenation template
-- Global Methods
-- CSS Styling
-- Design Kit
-- Styleguide
-- Decide between flexibility vs consistency
-- Components within components
-- Modules - SCSS 
 
 # Quality
 It is very important to maintain the quality of the code. When you have many developers working on one project it is good idea to enforce the code guidelines by using Prettier, CSSLint, JSLint, Formatting. These should be the part of the developers' IDE and to the readme of your design system. (This will gain the confidence of the consumer of DS)

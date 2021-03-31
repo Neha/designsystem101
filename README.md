@@ -1,12 +1,12 @@
-# Design System 101
+# :star: Design System 101 :star:
 Are you planning to develop a Design System or just curious to know what a Design System is? 
 If yes, then here is a detailed guide for you. No matter who you are - a designer, developer, 
 product owner, UX Writer, tester, etc. this guide has something for everyone.
 
-# Why this guide?
+# :thumbsup: Why this guide?
 For the last few months, I am working on a Design System at my workplace. There were challenges and a lot of learnings too. I was sharing my experience on social media about it. Many people showed their interest in it. Hence, I have documented my learnings on the Design System.
 
-## Key Terms:
+## :bulb: Key Terms: :bulb:
 - Presentational and Functional Components
 - Open and close components or Flexible or non-flexible components
 - Namespacing - CSS and React
@@ -15,15 +15,15 @@ For the last few months, I am working on a Design System at my workplace. There 
 - Your Design System's rules and scopes
 - 360 degree consistency (from style to documentation)
 
-## TOC:
-- What is a Design System?
+## :green_book: TOC:
+- [What is a Design System?](https://github.com/Neha/designsystemtemp#what-is-a-design-system)
 - Why you need a Design System?
-- Why to and not to use 3rd party Design System?
-- How to Start?
-- How to define the scope of the Design System
-- Role of team members in Design System
+- [Why to and not to use 3rd party Design System?](https://github.com/Neha/designsystemtemp#why-to-and-not-to-use-available-a-design-system)
+- [How to Start?](https://github.com/Neha/designsystemtemp#how-to-start)
+- [How to define the scope of the Design System](https://github.com/Neha/designsystemtemp#how-to-define-the-scope-of-the-design-system)
+- [Role of team members in Design System](https://github.com/Neha/designsystemtemp#role-of-team-members)
 - Pre Design System guide for the team
-- Post Design system:
+- [Post Design system:](https://github.com/Neha/designsystemtemp#post-design-system)
      - Release plans
      - Maintenance
      - Evangelism (Community Building)
@@ -32,9 +32,9 @@ For the last few months, I am working on a Design System at my workplace. There 
      - Lifecycle of a Design system
      - Team plan for the scalability
      - What is successful DS - KPI (Key Performance Indicators - survey - speed, quality, ease of contributions and completeness)
-- Learnings
-- Do's and Don'ts
-- Portal and playground
+- [Learnings](https://github.com/Neha/designsystemtemp#learnings)
+- [Do's and Don'ts](https://github.com/Neha/designsystemtemp#dos--for-developers)
+- [Portal and playground](https://github.com/Neha/designsystemtemp#storybook)
 
 ## What is a Design System?
 A single source of the truth for the designers, developers, and the products.
@@ -124,19 +124,19 @@ Every project team has: UX, UI Developer, Tester,  Product Manager (optional). E
 
 As a desginers of Design system you should have the list of the following:
 
-- Colors 
+1) Colors 
 
 Which all colors your design system will have? Primary colors, Alert colors, secondary color etc. Make sure that these colors are passing the contrast ratio.
 
-- Type scale
+2) Type scale
 
 What would be the type scale of the typography of your design system? There should be a minimum font-size your design system should have. Decide on the Typescale - will there be fixed type sizes or user can have any.
 
-- Spacing 
+3) Spacing 
 
 what would be the spacing (padding and margin) guide your design system will have? For example, can the user decide the space (margin) between the elements or there will be some pre-decided space-numbers (classes) the user needs to pick from? The same goes with padding. To have consistency better to have the fixed space scale.
 
-- Responsive
+4) Responsive
 
 It is very important to have a responsive design system. "Why?" I will ask - "Why not"?. This is the mobile and tabs era. Every component in your design system should be responsive by default. As a designer decide the breakpoints your design system is going to support (your design audit will help you here). Once the breakpoints are decided. Start thinking about the behavior of the components on the responsive state. Components behavior can be handle component by component but few things you need to close initially:
 
@@ -147,12 +147,12 @@ It is very important to have a responsive design system. "Why?" I will ask - "Wh
 3. How the active, focus, etc state will be on the touch screen?
 
 
-- Progressive enhancement & Browsers
+5) Progressive enhancement & Browsers
 
 This would be the collaboration work of the UX, UI, etc. To decide the browsers and devices your design system is going to support. As a designer, you need to involve in this decision as devs will keep you updated on the limitations of the version of the browser. Eg: a particular property will work on all browsers or not? and as a designer, you need to decide to keep such a design or not. As well as, do we have progressive enhancement or graceful degradation.
 
 
-- Micro-interactions
+6) Micro-interactions
 
 Micro-interactions are very important. This is the part of the UX which engages the users. Sadly, this is the section that is most ignorant too. Micro-interactions are the small animations, effects, UX very interaction of the user with the component will have. As a designer Micro-interactions define the UX of interacting with any components. Such as on hover on a button what all property will change and how they will change, in design system on closing any open element - how it is going to close - with transition or fade, etc. These micro-interactions should be global and consistent throughout your design system. Few interactions are:
 
@@ -188,23 +188,23 @@ A lot of non-designer folks will be using your design system and it is an opport
 
 Eg: When to use the button and when to use the anchor tag.
 
-- Error stages
+7) Error stages
 
 Sadly there is no component in the error stage. hence as a designer you need to make sure you will define the style of the error or notification states such as error, alert, success, etc. Again there needs to define global and should be consistent too.
 
-- Design Kit for scalability
+8) Design Kit for scalability
 
 To gain the trust of your users as well as to have the collaboration. Open all your design kits for the users.
 
-- Styleguide
+9) Styleguide
 
 Styleguide is the summary of the Design system's UX decision. Always have a styleguide, this will help the users to look into the design system's UI and UX in one go.
 
-- Design tokens
+10) Design tokens
 
-- Decide Flexibility vs consistency
+11) Decide Flexibility vs consistency
 
-- Themes
+12) Themes
 ### **Developers**
 
 1. Tech stack
@@ -449,7 +449,7 @@ Below are learning from my experience while working on the design system:
 - Props validations
 - Closed vs open components
 
-# Dont's for Developers
+# :exclamation: Dont's for Developers :exclamation:
 Do not release without documentation
 
 

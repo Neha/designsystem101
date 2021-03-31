@@ -120,7 +120,7 @@ Few things which will help in making decisions are:
 
 Every project team has: UX, UI Developer, Tester,  Product Manager (optional). Everyone plays role in building the design system. Here is the guide for designers (UX) and developers:
 
-### **Designers**
+### :art: **UX (Designers)**
 
 As a desginers of Design system you should have the list of the following:
 
@@ -205,7 +205,7 @@ Styleguide is the summary of the Design system's UX decision. Always have a styl
 11) Decide Flexibility vs consistency
 
 12) Themes
-### **Developers**
+### :computer: **Developers**
 
 1. Tech stack
 
@@ -291,7 +291,7 @@ Now, you got the components to design from the designer. Your next steps should 
 
 It doesn't matter accessibility is the requirement or not. As a developer, you should support accessibility. Every component should be accessible. The important thing here is to define the scope of the Accessibility and clearly mention in the documentation: Keyboard support, Text-to-speech, Color contrast
 
-# Guides
+**Guides**
 ### CSS Guide
 - BEM or not?
 - Modules - SCSS or utility classes?
@@ -342,6 +342,15 @@ It doesn't matter accessibility is the requirement or not. As a developer, you s
 - Components within components
 - Modules - SCSS 
 
+# :clipboard: Product Managers
+Product managers should be providing the requirement of the design system. PM should create the stories in JIRA with clear acceptance criteria.
+
+# :pencil: UX Writers
+UX writers are important to help in the documentation of the design system
+
+# :mag_right: Testers
+The tester should be involved from the 0-day and is responsible for testing the components in isolation as well as by building the applications.
+
 # How to define the scope of the Design System.
 It is important to define the scope of the components and design system. Scope means: what is NOT INCLUDED.
 It is important to put examples and patterns to show this as well as your design system introduction should have that what you are offering example: theming components, UI interactions components, or graphical components.
@@ -383,14 +392,6 @@ Build the ready-to-use patterns from your design system. It will help you to und
 
 No one is going to come and ask for 'I am looking for checkbox or button' but there is a higher chance of developers coming and asking about I am looking 'Filter-able Data grid with pagination.
 
-# Product Managers
-Product managers should be providing the requirement of the design system. PM should create the stories in JIRA with clear acceptance criteria.
-
-# UX Writers
-UX writers are important to help in the documentation of the design system
-
-# Testers
-The tester should be involved from the 0-day and is responsible for testing the components in isolation as well as by building the applications.
 # Post Design System
 Once the design system is ready the job of the design system team doesn't end here. Now, the team needs to work on the new areas. 
 

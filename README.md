@@ -207,7 +207,7 @@ Styleguide is the summary of the Design system's UX decision. Always have a styl
 12) Themes
 ### :computer: **Developers**
 
-1. Tech stack
+**1. Tech stack**
 
 This is the first step to decide on which tech stack you will be building your design system. There are many options available. As well, from the audit or meeting to the products/project teams you can get the idea of which tech stack to follow. If you need to decide the tech stack for the design system considers the following points:
 
@@ -235,7 +235,7 @@ and few more...
 
 . Stencils
 
-2. Architecture
+**2. Architecture**
 
 Once the tech-stack is finalized, the next step is to work on the architecture of the design system. This is important because before sharing with your rest of the development team and starting coding you have the base ready. While working on the architecture you need to also consider scalability, where the styling would be, where the utlis will be, etc.
 
@@ -249,18 +249,21 @@ Please check here the things to consider for styling:
 3) Angular
 4) Vue
 
-3. Environments
+**3. Environments**
 
 A design system is a team effort and requires the team to work in collaboration. As well as, we know the importance of creating different environments from dev, QA, UAT (Staging), to Prod. 
 
 As a team think about the environment and how the build process will work
 
 . dev
+
 . QA 
+
 . staging 
+
 . prod
 
-4. CI/CD
+**4. CI/CD**
 
 Next thing is to look into the CI/CD process. Try to do automation of every task and especially of the builds. 
 
@@ -292,6 +295,7 @@ Now, you got the components to design from the designer. Your next steps should 
 It doesn't matter accessibility is the requirement or not. As a developer, you should support accessibility. Every component should be accessible. The important thing here is to define the scope of the Accessibility and clearly mention in the documentation: Keyboard support, Text-to-speech, Color contrast
 
 **Guides**
+As a Deisgn system developer below points to be consider:
 ### CSS Guide
 - BEM or not?
 - Modules - SCSS or utility classes?
@@ -319,15 +323,15 @@ It doesn't matter accessibility is the requirement or not. As a developer, you s
 
 ### React
 - Separation simple to complex
-- props: required, default
-- props: validation
+- props: required, default, validation
 - Flexibility vs consistency
-- JS or React State?
-- children, HOC, etc
-- Playground
-- Why smallest component also
+- JS event lib or React State?
+- children, HOC, etc.
+- Playground to play with components states and propos
 - TDD
 - Accessibility
+- Naming convention
+- Folder structure
 
 ## Reusability
 - Styling
@@ -397,31 +401,31 @@ Once the design system is ready the job of the design system team doesn't end he
 
 **My Advice: Consider the below questions while you are starting your design system to avoid last-minute surprises**
 
-- Release plans
+**- Release plans**
 How soon the team will release the new version of components? or the big fixes etc. How the communication will be done?
 
-- Defect log
+**- Defect log**
 Where the users can log the defects? How the priorities will be decided? 
 
-- New Feature Request
+**- New Feature Request**
 Where the users can request the new feature?
 
-- Awareness and advocacy
+**- Awareness and advocacy**
 What is your plan for creating awareness about your design system and how you are going to advocate to the teams how and why to use your design system?
 
-- X vs Y
+**- X vs Y**
 Ask why? and then implement that in your DS. Keep checking other design systems and look for your USP and their USP. 
 
-- Metrics
+**- Metrics**
 Work on getting the analytics of the design system by using analytics which components are getting used and which are not? How many users are we having? etc. This will help you to track DS's success and improvement. 
 
-- Lifecycle of a Design system
+**- Lifecycle of a Design system**
 Have a plan and communicate clearly when the new version is getting deprecated or which component is. When the new version is coming and if there are breaking changes then what are those?
 
-- Team plan for the scalability
+**- Team plan for the scalability**
 As DSM (design system manager) you should work on the team structure - how many will work on new features and how many on bugs.
 
-- What is successful DS 
+**- What is successful DS**
 KPI (Key Performance Indicators - survey - speed, quality, ease of contributions and completeness): Work on preparing metrics to show how you are defining the success of your design system.
 
 # Learnings
